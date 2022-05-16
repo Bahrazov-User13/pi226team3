@@ -31,14 +31,15 @@ public class Calc extends HttpServlet{
 			first_try=0.0;
 		} else {}
 		
-		
-		
-		
+
+		SquareCalculation radius = new SquareCalculation(first_try);
+		result = radius.calculate(radius.getside1());
+
 		request.setAttribute("rad", rad1);
 		request.setAttribute("result", result);
 		
  		
- 		request.getRequestDispatcher("/Results.jsp").forward(request, response);
+ 		request.getRequestDispatcher("/Result.jsp").forward(request, response);
 		
 }
 }
