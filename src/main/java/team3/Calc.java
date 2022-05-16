@@ -10,7 +10,7 @@ import java.io.Console;
 import java.io.IOException;
 
 
-@WebServlet(name="Calc", urlPatterns="/Calc")
+@WebServlet(name="Calc", urlPatterns="/Calc")//
 public class Calc extends HttpServlet{
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
