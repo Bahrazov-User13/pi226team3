@@ -9,7 +9,7 @@
 <body>
 	<h1>Результат</h1>
 	<h2>Введенные данные:</h2>
-	<p><strong>Радиус:</strong> ${rad}</p>
-	<p><strong>Результат:</strong> ${result}</p>
+	<p><strong>Радиус:</strong> ${rad} мм</p>
+	<p><strong>Результат:</strong> ${result} мм</p>
 </body>
 </html>
